@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    
+}
+
+.all-content{
+  background: wheat;
+}
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: black;
+  border-radius: 10px;
+}
+html::-webkit-scrollbar{
+  width: 10px;
+}
+/* navbar */
+#navbar{
+  background-color:wheat;
+  font-family: 'Roboto', sans-serif;
+}
+#logo img{
+  border-radius: 10px;
+  width: 160px;
+  margin-left: 40px;
+}
+.navbar-nav{
+  margin-left: 50px;
+}
+.nav-item .nav-link{
+  color: black;
+  margin-left: 10px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+  background:white;
+  border-radius: 5px;
+  color: black;
+}
+#navbar form button{
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
+/* navbar */
+/* home content */
+#home{
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://img.freepik.com/free-vector/hand-drawn-engraving-coffee-shop-instagram-stories_23-2149225898.jpg?w=1380&t=st=1699858976~exp=1699859576~hmac=0375648842e8e42a0fee2ef65ab8a45f818e0621b79b71a0bd86c0e19994adeb);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+  padding-top: 210px;
+  margin-left: 56px;
+}
+.content h3{
+  font-size: 50px;
+  color: white;
+}
+.content p{
+  margin-top: 10px;
+  color: white;
+}
+#btn{
+  width: 150px;
+  height: 36px;
+  margin-top: 20px;
+  background: rgb(36, 155, 36);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#btn:hover{
+  background:white;
+  color: black;
+} 
+/* home content */
+
+
+
+
+
+
+/* about */
+#about{
+  width: 100%;
+  height: 100vh;
+  background:wheat;
+  font-family: 'Roboto', sans-serif;
+}
+#about .container{
+  padding-top: 70px;
+}
+.heading{
+  
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+}
+
+#about .card{
+  border-radius: 10px;
+}
+#about .card img{
+  border-radius: 10px;
+}
+#about-btn{
+  width: 200px;
+  height: 36px;
+  background: white;
+  border: 2px solid white;
+  color:black;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+#about-btn:hover{
+  background:orange;
+  color: white;
+}
+
+@media screen and (max-width:982px){
+  #about p{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width:766px){
+  #about p{
+    font-size: 15px;
+  }
+  #about{
+    height: 120vh;
+  }
+}
+/* about */
+
+/* top cards */
+.top-cards{
+  width: 100%;
+  height: 60vh;
+  background:wheat;
+  font-family: 'Roboto', sans-serif;
+  
+  
+}
+.heading2{
+   
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 0px;
+  border-bottom: 2px solid red;
+  
+ 
+}
+
+.top-cards .container{
+  margin-top: 30px;
+  
+}
+.top-cards .card{
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  
+}
+.top-cards .card img{
+  border-radius: 10px;
+  
+}
+.top-cards .card h3{
+  text-align: center;
+  padding-top: 78px;
+  color: white;
+}
+.top-cards .card:hover{
+  transform: translateY(-10px);
+  
+}
+@media screen and (max-width:767px){
+ .top-cards{
+  height: 170vh;
+  
+ } 
+}
+@media screen and (max-width:500px){
+ .top-cards{
+  height: 150vh;
+ } 
+}
+@media screen and (max-width:370px){
+ .top-cards{
+  height: 120vh;
+ 
+}
+}
+/* top cards */
+
+
+
+
+
+
+
+/* menu */
+.menu{
+  width: 100%;
+  background:wheat;
+  font-family: 'Roboto', sans-serif;
+}
+.heading3{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+}
+#container2{
+  margin-top: 20px;
+}
+/* .menu .card{
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star i{
+  color: #b2744c;
+} */
+.menu h3{
+  color: #b2744c;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.menu p{
+  font-size: 15px;
+  color: #b2744c;
+  padding-top: 10px;
+}
+.menu p button{
+  float: right;
+  cursor: pointer;
+ background-color: rgb(75, 224, 75);
+ border: none;
+}
+/* menu */
+
+
+
+
+
+
+
+/* product */
+.product{
+  width: 100%;
+  background: wheat;
+  font-family: 'Roboto', sans-serif;
+}
+.heading4{
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 70px;
+  border-bottom: 2px solid red;
+}
+#container3{
+  margin-top: 30px;
+}
+.product h3{
+  text-align: center;
+  color: #b2744c;
+  font-size: 25px;
+}
+.product p{
+  color: #b2744c;
+  padding-top: 9px;
+}
+.product p button{
+  float: right;
+  cursor: pointer;
+  background-color:rgb(75, 224, 75);
+  border: none;
+}
+/* product */
+
+
+
+
+
+
+
+/* gallary */
+.product{
+    width: 100%;
+    height: 100%;
+    background-color:  wheat;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+
+#gallary{
+  width: 100%;
+  
+}
+#gallary h1{
+  text-align: center;
+  color: black;
+  margin-top: 60px;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  
+}
+/* #gallary h1 span{
+  color: #b2744c;
+} */
+#gallary .card{
+  border-radius: 10px;
+}
+#gallary .card img{
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* gallary */
+
+
+
+
+/* contact */
+.contact{
+  width: 100%;
+  height: 100vh;
+  background-color:wheat ;
+  padding-top: 70px;
+}
+.contact .container{
+  width: 100%;
+  height: 80vh;
+  background: white;
+  background: linear-gradient(90deg, white 80%, white 20%);
+  border-radius: 10px;
+}
+.heading6{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 70px;
+}
+/* .heading6 span{
+  color: #b2744c;
+} */
+.contact p{
+  font-weight: bold;
+  font-size: 13px;
+  color: black;
+}
+.contact input{
+  width: 360px;
+  border: none;
+  border-bottom: 1px solid;
+}
+#contact-btn{
+  width: 200px;
+  height: 36px; 
+  border: none;
+  background: rgb(76, 223, 76);
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#contact-btn:hover{
+  background-color: white;
+  color: black;
+}
+
+/* contact */
+
+/* footer */
+#footer{
+  width: 100%;
+  background:white;
+  margin-top: 50px;
+  
+}
+.footer-logo img{
+  width: 180px;
+  border-radius: 10px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#footer .socail-links i{
+  font-size: 17px;
+  margin-left: 10px;
+  margin-top: 30px;
+  padding: 10px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.copyright span{
+  color: black;
+}
+/* footer */
+html{
+  scroll-behavior: smooth;
+}
